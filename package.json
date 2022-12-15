@@ -1,25 +1,27 @@
 {
-  "name": "backedtask",
+  "name": "task-1-studentsmarks",
   "version": "1.0.0",
-  "description": "student Marksheet ",
+  "description": "student Marksheet",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon src/index.js"
   },
-  "author": "Ashish Tripathi",
+  "author": "Aditya Patil",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^6.8.0"
+    "mongoose": "^6.8.0",
+    "nodemon": "^2.0.20"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ashishtripathi29/backendTask.git"
+    "url": "git+https://github.com/myselfaditya/task-1-StudentsMarks.git"
   },
   "bugs": {
-    "url": "https://github.com/Ashishtripathi29/backendTask/issues"
+    "url": "https://github.com/myselfaditya/task-1-StudentsMarks/issues"
   },
-  "homepage": "https://github.com/Ashishtripathi29/backendTask#readme"
+  "homepage": "https://github.com/myselfaditya/task-1-StudentsMarks#readme",
+  "devDependencies": {}
 }

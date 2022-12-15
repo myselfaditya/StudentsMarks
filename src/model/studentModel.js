@@ -1,5 +1,4 @@
 const mongoose=require("mongoose");
-const ObjectId=mongoose.Schema.Types.ObjectId
 const sub=["math","hindi","english",]
 const studentSchema=new mongoose.Schema({
     name:String,
@@ -18,4 +17,4 @@ const studentSchema=new mongoose.Schema({
     timestamps:true
 })
 
-module.exports=mongoose.model("satudent",studentSchema)
+module.exports=mongoose.model("student",studentSchema)

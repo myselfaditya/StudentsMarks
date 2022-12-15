@@ -11,6 +11,4 @@ const pass=(pass)=>{
     return /^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$/.test(pass)
 }
 
-
-
 module.exports={str,num,email,pass}
